@@ -1,7 +1,7 @@
 ## Specify phone tech before including full_phone
 
 # Release name
-PRODUCT_RELEASE_NAME := x510
+PRODUCT_RELEASE_NAME := s6
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
@@ -10,8 +10,8 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/infinix/x510/device_x510.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := x510
-PRODUCT_NAME := cm_x510
-PRODUCT_BRAND := INFINIX
-PRODUCT_MODEL := X510
-PRODUCT_MANUFACTURER := INFINIX
+PRODUCT_DEVICE := s6
+PRODUCT_NAME := cm_s6
+PRODUCT_BRAND := QMOBILE
+PRODUCT_MODEL := S6
+PRODUCT_MANUFACTURER := QMOBILE

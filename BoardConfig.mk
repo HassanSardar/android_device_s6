@@ -1,6 +1,6 @@
 # mt6580 platform boardconfig
-LOCAL_PATH := device/infinix/x510
--include vendor/infinix/x510/BoardConfigVendor.mk
+LOCAL_PATH := device/qmobile/s6
+-include vendor/qmobile/s6/BoardConfigVendor.mk
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
@@ -132,7 +132,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS := \
-       device/infinix/x510/sepolicy
+       device/qmobile/s6/sepolicy
 
 # Hack for building without kernel sources
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
